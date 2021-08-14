@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escolhendo a Nacionalidade</title>
+</head>
+<body>
+
+  <!-- Exercício proposto pelo Guanabara antes do término do vídeo -->>
+
+  <h1>Escolhendo a Nacionalidade</h1>
+
+  Digite a sua nacionalidade: <input type="text" name="nacionalidade" id="nacionalidade">
+  <input type="button" value="Verificar" onclick="clicar()">
+  <div id="resultado"></div>
+
+  <script>
+    function clicar() {
+
+      var botao = window.document.getElementById('nacionalidade')
+      var div = window.document.getElementById('resultado')
+      var textoFinal = botao.value
+      
+      div.innerHTML = `<p>Você atualmente reside no país <strong>${textoFinal}</strong></p>`
+
+      if(textoFinal == 'Brasil') {
+        div.innerHTML += `<p>Você é <strong>brasileiro</strong>!</p>`
+      }
+      else {
+        div.innerHTML += `<p>Você é estrangeiro!</p>`
+      }
+    }
+  </script>
+</body>
+</html>
