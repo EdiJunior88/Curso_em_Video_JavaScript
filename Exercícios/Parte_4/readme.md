@@ -1,0 +1,1 @@
+Estou travado na resolução desse exercício (JavaScript), por isso ele está incompleto
