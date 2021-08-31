@@ -22,4 +22,4 @@ Em um curso patrocinado pelo Google, o professor Gustavo Guanabara vai ensinar o
 <hr>
 
 <h4><b>Aulas:</b> :vhs: 33 video-aulas</h4>
-<h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
+<h4><b>Status do Curso:</b> :white_check_mark: Concluído</h4>
